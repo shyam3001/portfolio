@@ -12,6 +12,14 @@ h1 {
   color: #222222;
 }
 
+h2 {
+  padding: 0;
+  margin: 0 0 15px 0;
+  color: #333333;
+  font-weight: 700;
+  
+}
+
 .input-group {
   margin-top: 20px;
   margin-bottom: 10px;
@@ -50,4 +58,29 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+.button {
+  background-color: #fdc836; /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 12px;
+  display: inline-block;
+  font-size: 16px;
+}
+.section-title {
+  width: 100%;
+  text-align: center;
+  padding: 45px 0 30px 0;
+}
+
+.section-title::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 5px;
+  left: calc(50% - 25px);
+  background: #353535;
 }
